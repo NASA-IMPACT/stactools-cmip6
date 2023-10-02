@@ -1,10 +1,10 @@
 [project]
 name = "stactools-cmip6"
 version = "0.1.0"
-description = "PROVIDE DESCRIPTION HERE"
+description = "stactools-package for working with CMIP6 data"
 readme = "README.md"
-authors = [{ name = "Your name here", email = "your-email@example.com" }]
-maintainers = [{ name = "Your name here", email = "your-email@example.com" }]
+authors = [{ name = "Pete Gadomski", email = "pete.gadomski@gmail.com" }]
+maintainers = [{ name = "Pete Gadomski", email = "pete.gadomski@gmail.com" }]
 keywords = ["stactools", "pystac", "catalog", "STAC"]
 license = { text = "Apache-2.0" }
 classifiers = [
