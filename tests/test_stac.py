@@ -1,4 +1,4 @@
-from stactools.ephemeral import stac
+from stactools.cmip6 import stac
 
 from . import test_data
 

@@ -3,14 +3,14 @@
 import shutil
 from pathlib import Path
 
-import stactools.ephemeral.stac
+import stactools.cmip6.stac
 from pystac import CatalogType
 
 root = Path(__file__).parents[1]
 examples = root / "examples"
 
-collection = stactools.ephemeral.stac.create_collection()
-item = stactools.ephemeral.stac.create_item(str(root / "tests" / "data" / "asset.tif"))
+collection = stactools.cmip6.stac.create_collection()
+item = stactools.cmip6.stac.create_item(str(root / "tests" / "data" / "asset.tif"))
 collection.add_item(item)
 collection.update_extent_from_items()
 collection.normalize_hrefs(str(examples))

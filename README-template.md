@@ -1,19 +1,19 @@
-# stactools-ephemeral
+# stactools-cmip6
 
-[![PyPI](https://img.shields.io/pypi/v/stactools-ephemeral?style=for-the-badge)](https://pypi.org/project/stactools-ephemeral/)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/stactools-packages/ephemeral/continuous-integration.yml?style=for-the-badge)
+[![PyPI](https://img.shields.io/pypi/v/stactools-cmip6?style=for-the-badge)](https://pypi.org/project/stactools-cmip6/)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/stactools-packages/cmip6/continuous-integration.yml?style=for-the-badge)
 
-- Name: ephemeral
-- Package: `stactools.ephemeral`
-- [stactools-ephemeral on PyPI](https://pypi.org/project/stactools-ephemeral/)
+- Name: cmip6
+- Package: `stactools.cmip6`
+- [stactools-cmip6 on PyPI](https://pypi.org/project/stactools-cmip6/)
 - Owner: @githubusername
 - [Dataset homepage](http://example.com)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
 - Extra fields:
-  - `ephemeral:custom`: A custom attribute
-- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/ephemeral/main/examples/collection.json)
-- [Browse a notebook demonstrating the example item and collection](https://github.com/stactools-packages/ephemeral/tree/main/docs/example.ipynb)
+  - `cmip6:custom`: A custom attribute
+- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/cmip6/main/examples/collection.json)
+- [Browse a notebook demonstrating the example item and collection](https://github.com/stactools-packages/cmip6/tree/main/docs/example.ipynb)
 
 A short description of the package and its usage.
 
@@ -25,7 +25,7 @@ A short description of the package and its usage.
 ## Installation
 
 ```shell
-pip install stactools-ephemeral
+pip install stactools-cmip6
 ```
 
 ## Command-line usage
@@ -33,10 +33,10 @@ pip install stactools-ephemeral
 Description of the command line functions
 
 ```shell
-stac ephemeral create-item source destination
+stac cmip6 create-item source destination
 ```
 
-Use `stac ephemeral --help` to see all subcommands and options.
+Use `stac cmip6 --help` to see all subcommands and options.
 
 ## Contributing
 

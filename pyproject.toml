@@ -1,5 +1,5 @@
 [project]
-name = "stactools-ephemeral"
+name = "stactools-cmip6"
 version = "0.1.0"
 description = "PROVIDE DESCRIPTION HERE"
 readme = "README.md"
@@ -34,8 +34,8 @@ dev = [
 docs = ["pystac~=1.8", "ipykernel~=6.25", "jinja2~=3.1"]
 
 [project.urls]
-Github = "https://github.com/stactools-packges/ephemeral"
-Issues = "https://github.com/stactools-packges/ephemeral/issues"
+Github = "https://github.com/stactools-packges/cmip6"
+Issues = "https://github.com/stactools-packges/cmip6/issues"
 
 [build-system]
 requires = ["setuptools", "wheel"]
