@@ -1,23 +1,63 @@
-# stactools-template
+# stactools-cmip6
 
-This is a template repo used for creating new packages for `stactools`.
+<!-- [![PyPI](https://img.shields.io/pypi/v/stactools-cmip6?style=for-the-badge)](https://pypi.org/project/stactools-cmip6/) -->
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/NASA-IMPACT/stactools-packages-cmip6/continuous-integration.yml?style=for-the-badge)
 
-## How to use
+- Name: cmip6
+- Package: `stactools.cmip6`
+- Owner: @gadomski
+- [Dataset homepage](https://esgf-node.llnl.gov/projects/cmip6/)
+- STAC extensions used:
+  - TBD
+- Extra fields:
+  - TBD
 
-1. Clone this template repository as your package name, e.g. `landsat`.
-   This name should be short, memorable, and a valid Python package name (i.e.
-   it shouldn't start with a number, etc). It can, however, include a hyphen, in
-   which case the name for Python imports will be the underscored version, e.g.
-   `landsat-8` goes to `stactools.landsat_8`.  Your name will be used on PyPI to
-   publish the package in the stactools namespace, e.g. `stactools-landsat`.
-2. Change into the top-level directory of your package and run `scripts/rename`.
-   This will update _most_ of the files in the repository with your new package name.
-3. Update `pyproject.toml` with your package description and such.
-4. Install with the development requirements (`pip install -e '.[dev]'`).
-5. Update the LICENSE with your company's information (or whomever holds the copyright).
-6. Edit or replace the existing functions to create stac Items and Collections
-   for your dataset.
-7. Add example Items (and Collections and Catalogs, if included) to an
-   `examples/` directory.
-8. Delete this file, and rename `README-template.md` to `README.md`. Update your
-   new README to provide information about how to use your package.
+<!-- - [stactools-cmip6 on PyPI](https://pypi.org/project/stactools-cmip6/) -->
+<!-- - [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/cmip6/main/examples/collection.json) -->
+<!-- - [Browse a notebook demonstrating the example item and collection](https://github.com/stactools-packages/cmip6/tree/main/docs/example.ipynb) -->
+
+WIP
+
+## STAC examples
+
+TODO
+
+## Installation
+
+```shell
+pip install stactools-cmip6
+```
+
+## Command-line usage
+
+TODO
+
+Use `stac cmip6 --help` to see all subcommands and options.
+
+## Contributing
+
+We use [pre-commit](https://pre-commit.com/) to check any changes.
+To set up your development environment:
+
+```shell
+pip install -e '.[dev]'
+pre-commit install
+```
+
+To check all files:
+
+```shell
+pre-commit run --all-files
+```
+
+To run the tests:
+
+```shell
+pytest -vv
+```
+
+If you've updated the STAC metadata output, update the examples:
+
+```shell
+scripts/update-examples
+```
