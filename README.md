@@ -1,6 +1,8 @@
 # stactools-cmip6
 
-<!-- [![PyPI](https://img.shields.io/pypi/v/stactools-cmip6?style=for-the-badge)](https://pypi.org/project/stactools-cmip6/) -->
+<!--
+[![PyPI](https://img.shields.io/pypi/v/stactools-cmip6?style=for-the-badge)](https://pypi.org/project/stactools-cmip6/)
+-->
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/NASA-IMPACT/stactools-packages-cmip6/continuous-integration.yml?style=for-the-badge)
 
 - Name: cmip6
@@ -13,8 +15,12 @@
   - TBD
 
 <!-- - [stactools-cmip6 on PyPI](https://pypi.org/project/stactools-cmip6/) -->
-<!-- - [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/cmip6/main/examples/collection.json) -->
-<!-- - [Browse a notebook demonstrating the example item and collection](https://github.com/stactools-packages/cmip6/tree/main/docs/example.ipynb) -->
+<!-- - [Browse the example in human-readable
+form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/cmip6/main/examples/collection.json)
+-->
+<!-- - [Browse a notebook demonstrating the example item and
+collection](https://github.com/stactools-packages/cmip6/tree/main/docs/example.ipynb)
+-->
 
 WIP
 
